@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook - التطبيقات على Google Play</title>
+    <style>
+        body {
+            font-family: Roboto, Arial, sans-serif;
+            background-color: #f8f9fa;
+            margin: 0;
+            padding: 0;
+            color: #202124;
+        }
+        .header {
+            padding: 16px 24px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #dadce0;
+            background: #fff;
+        }
+        .header img {
+            height: 24px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 1px 2px 0 rgba(60,64,67,0.3);
+        }
+        .app-info {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 16px;
+        }
+        .app-details h1 {
+            font-size: 24px;
+            margin: 0 0 4px 0;
+        }
+        .app-details p {
+            color: #5f6368;
+            margin: 0;
+            font-size: 14px;
+        }
+        .download-btn {
+            display: inline-block;
+            margin-top: 24px;
+            background-color: #01875f;
+            color: white;
+            padding: 12px 32px;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 4px;
+            text-align: center;
+        }
+        .download-btn:hover {
+            background-color: #016f4e;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <span style="font-size: 20px; font-weight: bold; color: #5f6368;">Google <span style="color: #01875f;">Play</span></span>
+    </div>
+
+    <div class="container">
+        <div class="app-info">
+            <!-- استبدل رابط الأيقونة برابط أيقونة فيسبوك أو صورة محلية -->
+            <img class="app-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/b8/2021_Facebook_icon.svg" alt="Facebook Icon">
+            <div class="app-details">
+                <h1>Facebook</h1>
+                <p>Meta Platforms, Inc. • تتضمن عمليات شراء داخل التطبيق</p>
+            </div>
+        </div>
+
+        <!-- زر التنزيل المباشر المربوط بملف الـ APK الموجود على السيرفر -->
+        <a href="app.apk" class="download-btn" download>تثبيت</a>
+    </div>
+
+</body>
+</html>
